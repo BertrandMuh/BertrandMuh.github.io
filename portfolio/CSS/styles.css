@@ -269,7 +269,7 @@ td a {
 	.header{
 		display: block;
 		height: max-content;
-		width: max-content;
+		max-width: 20rem;
 		margin: auto;
 		text-align: center;
 		padding: var(--header-padding);
