@@ -18,14 +18,12 @@ body{
 	margin: 0;
 }
 
-
-
 .body{
 	max-width: var(--content-max-width);
 	margin: auto;
 	padding: 0;
 	position: relative;
-	top: 8vh;
+	top: 10vh;
 	border-radius: 0.7rem;
 }
 
@@ -171,8 +169,7 @@ iframe{
 }
 
 label{
-	font-weight: bold;
-	font-size: 20px;
+	font-size: 17px;
 }
 
 fieldset div{
@@ -182,9 +179,8 @@ fieldset div{
 
 fieldset{
 	display: block;
-	margin: 5px 5px;
-	padding: var(--input-padding);
-	border-color: none;
+	margin: 5px 0px;
+	padding: var(--input-padding) 0;
 	border: 0;
 }
 
@@ -208,6 +204,7 @@ textarea{
 	font-style: italic;
 	font-size: 20px;
 	font-family: 'Courier New', Courier, monospace;
+	color: rgb(25, 25, 25);
 }
 
 p{
@@ -215,7 +212,8 @@ p{
 }
 
 legend{
-	font-size: 180%;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 #button{
@@ -225,11 +223,12 @@ legend{
 }
 
 input[type="submit"]{
-	font-size: 30px;
+	font-size: 20px;
 	margin-top: 10px;
 	border-radius: 0.7rem;
 	box-shadow: 0px 0px 2px black;
-	width: 150px;
+	width: 120px;
+	text-align: center;
 }
 
 input[type="submit"]:hover{
@@ -264,7 +263,7 @@ td a {
 		position: relative;
 		top: 85px;
 		padding-right: 20px;
-		padding-left: 15px;
+		padding-left: 10px;
 	}
 
 	.header{
