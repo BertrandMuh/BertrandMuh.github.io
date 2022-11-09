@@ -5,11 +5,12 @@
 	--input-padding: 5px;
 	--input-width: 98%;
 	--header-height: 300px;
-	--details-color: rgb(255,200,200);
+	--details-color: rgb(200,200,200);
 	--header-padding: 5px;
 	--nav-height: 5vh;
 	--content-max-width: 700px;
 	--header-border-radius: 0.2rem;
+	--video-width: 22rem;
 }
 
 body{
@@ -156,7 +157,7 @@ nav a{
 }
 
 iframe{
-	width: 40%;
+	width: 45%;
 	height: 200px;
 	border-radius: var(--input-border-radius);
 }
@@ -291,6 +292,10 @@ td a {
 		margin: auto;
 	}
 
+	.country-table{
+		width: var(--video-width);
+	}
+
 	.name{
 
 		font-size: 32px;
@@ -320,7 +325,7 @@ td a {
 	}
 
 	iframe{
-		width: 400px;
+		width: var(--video-width);
 		border-radius: var(--input-border-radius);
 		margin-bottom: 30px;
 	}
