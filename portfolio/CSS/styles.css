@@ -7,8 +7,8 @@
 	--header-height: 300px;
 	--details-color: rgb(200,200,200);
 	--header-padding: 5px;
-	--nav-height: 5vh;
-	--content-max-width: 700px;
+	--nav-height: auto;
+	--content-max-width: 680px;
 	--header-border-radius: 0.2rem;
 	--video-width: 22rem;
 }
@@ -28,7 +28,7 @@ body{
 }
 
 .survey{
-	padding: 20px 0;
+	padding: 20px 8px;
 	background-color: var(--survey-background-color);
 }
 
@@ -91,7 +91,7 @@ nav{
 	background-color: var(--html-color);
 	width: 100vw;
 	vertical-align: middle;
-	padding: 7px 0 0 0; 
+	padding: 10px 0; 
 	margin: 0;
 	border-bottom: 2px solid rgb(180,180,180);
 }
