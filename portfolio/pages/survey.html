@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\bertr\OneDrive\Desktop\programming\Per Scholas\pre-work\CSS\styles.css">
+    <script src="C:\Users\bertr\OneDrive\Desktop\programming\Per Scholas\pre-work\script\javascrip.js"></script>
+  <title>Bertrand Muhonga</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-div">
+            <a href="C:\Users\bertr\OneDrive\Desktop\programming\Per Scholas\pre-work\pages\index.html">Home</a>
+            <a href="C:\Users\bertr\OneDrive\Desktop\programming\Per Scholas\pre-work\pages\interests.html">Interests</a>
+            <a href="C:\Users\bertr\OneDrive\Desktop\programming\Per Scholas\pre-work\pages\survey.html">Survey</a>
+        </div>
+    </nav>
+    <div class="body survey">
+        <p id="survey-title">Survey Form</p>
+        <p id="subtitle">Let us know what we can do to improve</p>
+        <form action="#">
+        <fieldset id="contact">
+
+            <legend>Contacts</legend>
+            <div>
+            <label for="fullname">Full name:</label><br>
+            <input id="fullname" type="text" name="fullname" placeholder="eg. Zaxby Tshibedebede">
+            </div>
+            
+            <div>
+            <label for="email">Email:</label><br>
+            <input id="email" type="email" name="email" placeholder="e.g. zaxb@gmail.com">
+            </div>
+
+            <div>
+            <label for="age">Age:</label><br>
+            <input id="age" type="number" name="age" min="5" max="150" placeholder="e.g. 20">
+            </div>
+
+            <div>
+            <label for="residence">Country of residency:</label><br>
+            <input id="residence" type="text" name="residence" placeholder="eg. Angola">
+            </div>
+        </fieldset>
+
+        <fieldset id="gender">
+            <legend>Gender</legend>
+
+            <input id="male" type="radio" name="gender" value="male">
+            <label for="male">Male</label><br>
+
+            <input id="female" type="radio" name="gender" value="female">
+            <label for="female">Female</label>
+
+        </fieldset>
+        <fieldset id="comment">
+            <legend>Comments</legend>
+            <textarea placeholder="Enter comment here..."></textarea>
+        </fieldset>
+        <div id="button">
+            <input id="input-button" type="submit" value="SUBMIT" onclick="myFunction()">
+        </div>
+    </form>
+</div>
+</body>
+</html>
