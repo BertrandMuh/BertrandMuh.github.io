@@ -1,6 +1,6 @@
 :root{
 	--html-color: rgb(200,200,200);
-	--survey-background-color: rgb(150,150,150);
+	--survey-background-color: rgb(190,190,190);
 	--input-border-radius: 0.5rem;
 	--input-padding: 5px;
 	--input-width: 98%;
@@ -30,6 +30,9 @@ body{
 .survey{
 	padding: 20px 8px;
 	background-color: var(--survey-background-color);
+	height: 100%;
+	border-radius: 0.7rem 0.7rem 0 0;
+	box-shadow: 0 0 5px black;
 }
 
 #profile{
@@ -107,6 +110,11 @@ nav a{
 	color:rgb(20,20,20);
 	padding: 7px;
 	font-size: 20px;
+}
+
+nav a:hover{
+	background-color: black;
+	color: white;
 }
 
 .country-table td{
